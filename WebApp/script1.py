@@ -12,6 +12,10 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route('/Interactive_World_Map/')
+def Interactive_World_Map():
+    return render_template("Interactive_World_Map.html")
+
 if __name__ == "__main__":
     app.run(debug = False)
     
